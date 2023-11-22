@@ -8,38 +8,38 @@ The journey concludes by delving into the immersive virtual reality's impact on 
 
 ## Topics Covered
 
-### Human Perception and Cognition:
+### [Human Perception and Cognition](./Human_Perception_and_Cognition/)  
   * Human auditory and visual system  
   * Motion in real and virtual worlds  
   * 3D Computer graphics  
   * 3D modeling  
   * Illumination and related algorithms  
 
-### Avatar:
+### [Avatar](./Avatar/)
   * Types of avatars  
   * Digital Twins  
   * Interaction  
 
-### Tracking:
+### [Tracking](./Tracking/)
   * Types of Trackers  
   * Simultaneous Localization and Mapping _(SLAM)_  
     
-### Application of Avatar:
+### [Application of Avatar](./Avatar_Apps/)
   * Usability  
   * Role  
   * Impact   
 
-### Immersive Environments:
+### [Immersive Environments](./Immersive_Environments/)
   * Evolution  
   * Sound in an Immersive Environment  
   * Milgram’s Reality-virtuality Continuum  
 
-### Metaverse Ethics:  
+### [Metaverse Ethics](./Metaverse_Ethics/)
   * Scientific Concerns  
   * Social Consequences  
   * Health and Safety Issues  
 
-### Immersive Attacks:
+### [Immersive Attacks](./Immersive_Attacks/)
   * Security in Metaverse  
   * Overlay Attack  
   * Occlusion Attack  
