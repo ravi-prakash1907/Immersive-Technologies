@@ -11,29 +11,29 @@ The journey extends into development, unraveling the environment, tools, framewo
 ### [Introduction](Intro)  
   * Evolution of VR  
   * Essential Components of VR  
-  * Hardware, Software  
+    * Hardware, Software  
   * Types of VR display  
 
-### [Technical Components](Technical_Components)  
-  * Rendering the virtual world  
-  * Aural vs Haptic representation  
-  * Rendering Systems  
-  * Types of interaction  
-  * Modes  
+### Technical Components  
+  * [Rendering the virtual world](Rendering_VR)    
+    * Aural vs Haptic representation  
+    * Rendering Systems  
+  * [Types of Interaction](Interaction_Types)  
+    * Modes  
   * VR experience  
-  * Immersion  
-  * Types of the Virtual World   
-  * Designing VR experience  
+    * Immersion  
+    * Types of the Virtual World   
+    * Designing VR experience  
 
 ### [Development](Development)  
   * Environment  
-  * Tools  
-  * Framework  
-  * X3DStandard  
+    * Tools  
+    * Framework  
+    * X3DStandard  
   * Integration  
-  * VR Software   
-  * Game Engines  
-  * VR Algorithms  
+    * VR Software   
+    * Game Engines  
+  * VR Algorithms and Protocols 
 
 ### [Existing Challenges](Existing_Challenges)  
   * Types of virtualization (in VR)  
