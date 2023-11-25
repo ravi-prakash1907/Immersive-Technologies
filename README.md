@@ -32,3 +32,12 @@ Embark on an insightful journey through the evolution of Virtual Reality (VR) ðŸ
 ### Module-4  
 
 _Yet to described._  
+
+
+---  
+
+## Live Projects  
+
+Numerous immersive reality projects created during this course are available for access at the following link:
+
+[**`WebXR Projects`**](https://ravi-prakash1907.github.io/WebXR-Projects/)  
