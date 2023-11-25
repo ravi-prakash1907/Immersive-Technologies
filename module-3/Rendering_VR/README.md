@@ -1,17 +1,33 @@
-## Technical Components
+# Technical Components
 
-### Rendering the virtual world
-    
-* Aural representation
-* Haptic representation
-* Rendering Systems
+### Index
+  * [Rendering in Virtual World](#rendering-in-virtual-world)  
+    * Haptic Representation
+    * Aural Representation
+  * [Rendering Systems](#rendering-systems)
 
-### Types of interaction
+---  
 
-* Modes
+## Rendering in Virtual World
 
-### VR experience
+There are 2 main types of representations in the virtual world. These are: 
 
-* Immersion
-* Types of the Virtual World 
-* Designing VR experience
+> 1. Haptic Representation
+> 2. Aural Representation
+
+
+## Rendering Systems
+
+Yet to be updated...
+
+<!-- 
+---  
+
+#### References  
+
+1.  -->
+
+
+---  
+
+[🔙 Module-3 Home Page](../)
