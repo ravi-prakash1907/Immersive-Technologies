@@ -201,6 +201,57 @@ Now, equipped with this basic knowledge, let's proceed with the discussion about
 
 Here we discuss each of these displays in more detail:  
 
+### Aural Displays
+
+Aural displays focus on using <u>sound and audio</u> to enhance the immersive experience. They can be categorized into three types:
+
+#### 1. Stationary Displays 
+
+**a. Speakers**  
+
+> * Works well with stationary visual displays.
+> * Does not require sound processing to create a world-referenced sound stage (i.e., one that remains stable to the virtual world).
+> * Greater user mobility.
+> * Little encumbrance.
+> * Multiuser access means faster throughput.
+
+#### 2. Head-based Displays (HBDs)
+
+Some of the key features of these displays include:  
+
+> * Works well with head-coupled visual displays.
+> * Easier to implement spatialized 3D sound fields.
+> * Masks real-world noise.
+> * Greater portability with privacy.
+
+**a. Closed-ear Headphones**  
+
+These are also called _closed-ear aural displays_ as the speakers often cover the complete ear, largely blocking the outer noise from the real environment.  
+
+![closed-ear-headphones](https://external-preview.redd.it/HiAlB_bF7rjGOvERLVByrgtU0X47SRLZOeHSu1xUEkA.jpg?auto=webp&s=1782ef9c6cbcc2459f95e9d4304bc2e832ae7c04)  
+
+**b. Open-ear Headphones**  
+
+These are called _open-ear and near-ear speakers_. Due to being comparatively smaller, these speakers don't cover the complete ear, rather cover it partially.  
+
+![open-ear-speakers](./assets/open-ear-speakers.png)
+
+#### 3. Hand-based Displays
+
+Some of the most common properties of these aural displays include: 
+
+> * World-referenced sound stage with instant spatialization.
+> * Works well as a combination with stationary or open-ear HBDs.
+> * Pre-built in hand-held devices (mobile phones).
+
+**a. Interaction Controller Device**  
+**b. Smartphone/Tablet Mobile AR**  
+
+> * Provides aural interaction in mobile Augmented Reality (AR).
+> * Enhances the immersive experience on smartphones or tablets.
+
+
+
 #### Properties of Aural Displays  
 
 The following table provides overall information about the _aural-presentation_ and _logistic_ properties of aural displays:  
@@ -217,6 +268,9 @@ The following table provides overall information about the _aural-presentation_ 
 |                                | Encumbrance                    |
 |                                | Safety                         |
 |                                | Cost                           |
+
+
+Having covered the introductory section of Virtual Reality, we can now delve into the module that explores the [_Technical Components_](../#technical-components) of VR.  
 
 ---  
 
