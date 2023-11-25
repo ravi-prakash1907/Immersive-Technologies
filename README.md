@@ -40,4 +40,4 @@ _Yet to described._
 
 Numerous immersive reality projects created during this course are available for access at the following link:
 
-[**`WebXR Projects`**](https://ravi-prakash1907.github.io/WebXR-Projects/)  
+[**`WebXR Projects`**](https://ravi-prakash1907.github.io/WebXR-test/)  
