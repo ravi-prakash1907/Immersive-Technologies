@@ -15,6 +15,16 @@ There are 2 main types of representations in the virtual world. These are:
 > 1. Haptic Representation
 > 2. Aural Representation
 
+### Haptic Rendering
+
+Yet to be updated...
+
+### Aural Rendering
+
+Here is a sample code:  
+
+<script src="https://gist.github.com/ravi-prakash1907/8228f0037387049c8c177b779ac4d6ed.js"></script>
+
 
 ## Rendering Systems
 
