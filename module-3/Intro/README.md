@@ -1,3 +1,5 @@
+# Introduction  
+
 ### Index
   * [Evolution of VR](#evolution-of-vr)  
   * [Essential Components of VR](#essential-components-of-vr) 
@@ -167,11 +169,22 @@ The following table gives overall information about the _visual-presentation_ an
 
 | Visual Presentation Properties | Logistic Properties            |
 | ------------------------------ | ------------------------------ |
-| Emitting technology            | Donning the apparatus          |
-| Color                          | User mobility                  |
-| Spatial resolution             | Interface with tracking methods|
-| Contrast                       | Light pollution                |
-| Brightness                     | Environment requirements       |
+| Grounding                      | Donning the apparatus          |
+| Emitting technology            | User mobility                  |
+| Color                          | Interface with tracking methods|
+| Spatial resolution             | Light pollution                |
+| Contrast                       | Environment requirements       |
+| Brightness                     | Associability with other sense displays |
+| Number of display channels     | Portability                    |
+| Focal distance                 | Throughput                     |
+| Optics                          | Encumbrance                    |
+| Opacity                        | Safety                         |
+| Masking                        | Cost                           |
+| Field of view (FOV)            |                                |
+| Field of regard (FOR)          |                                |
+| Head position information      |                                |
+| Latency tolerance              |                                |
+| Temporal resolution (frame rate)|                                |
 
 
 
