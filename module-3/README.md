@@ -37,8 +37,16 @@ The journey extends into development, unraveling the environment, tools, framewo
 
 ### [Existing Challenges](Existing_Challenges)  
   * Types of virtualization (in VR)  
-  * Applications of VR  
-
+  * Applications of VR
+  
+<!-- 
 ---  
 
 ## Research Scope
+
+Yet to be populated... -->
+
+
+---  
+
+[🔙 All Modules](../)
