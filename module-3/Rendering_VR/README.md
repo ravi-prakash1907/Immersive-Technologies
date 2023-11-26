@@ -177,7 +177,7 @@ Yet to be updated...
 2. William R. Sherman et al., **"Understanding Virtual Reality,"** 2018 [[PDF](https://drive.google.com/file/d/1N4GNZFMVCjRYew58dXQjSBIKYhuUZXhu/view?usp=drive_link)]
 3. Dangxiao Wang et al., **"Haptic display for virtual reality: progress and challenges,"** 2019 [[online](https://www.sciencedirect.com/science/article/pii/S2096579619300130)]  
 4. Angelika C. Kern et al., **"Audio in VR: Effects of a Soundscape and Movement-Triggered Step Sounds on Presence,"** 2020 [[online](https://www.frontiersin.org/articles/10.3389/frobt.2020.00020/full)]  
-5. Thomas P. et al., **"On the Relative Importance of Visual and Spatial Audio Rendering on VR Immersion,"** 2022 [[online](https://www.frontiersin.org/articles/10.3389/frobt.2020.00020/full)]  
+5. Thomas P. et al., **"On the Relative Importance of Visual and Spatial Audio Rendering on VR Immersion,"** 2022 [[online](https://www.frontiersin.org/articles/10.3389/frsip.2022.904866/full)]  
 
 
 ---  
