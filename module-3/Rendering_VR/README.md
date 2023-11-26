@@ -105,12 +105,12 @@ Here we elaborate on these in a few bullet points:
       - Perpendicular
       - Often represented with <u>Spring & Viscous Damping Force</u>
 
-    - **Friction:**
+    - _Friction_
       - Inertial Friction
       - Resistive Friction
       - Role of Torque
 
-    - **Texture:**
+    - _Texture_
       - 3 Ways of Representation
       - Virtual Surface Information
       - Stochastic Process
