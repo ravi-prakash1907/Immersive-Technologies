@@ -1,5 +1,3 @@
-Certainly! Here's the enhanced and grammatically corrected version of the given markdown for a course material:
-
 # Technical Components - I
 
 ### Index
@@ -107,12 +105,12 @@ Here we elaborate on these in a few bullet points:
       - Perpendicular
       - Often represented with <u>Spring & Viscous Damping Force</u>
 
-    - **Friction:**
+    - _Friction_
       - Inertial Friction
       - Resistive Friction
       - Role of Torque
 
-    - **Texture:**
+    - _Texture_
       - 3 Ways of Representation
       - Virtual Surface Information
       - Stochastic Process
@@ -163,6 +161,8 @@ Here is a sample code:
 
 <script src="https://gist.github.com/ravi-prakash1907/8228f0037387049c8c177b779ac4d6ed.js"></script>
 
+
+---  
 
 ## Rendering Systems
 
