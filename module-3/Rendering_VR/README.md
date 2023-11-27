@@ -189,6 +189,8 @@ While talking about the audio in technical terms, followinf points should be con
 
 2. **Binaural cues:** 
 
+  **Credit for Content:** The acknowledgment for various images featured in this segment is attributed to the video [_Perception: 10.2 - Localizing Sounds_]() by [**Dr. Kristin Atchison**](https://youtu.be/Mi3Guybisxw?si=F3eRXo2JwrqYPnDd).  
+
    * Binaural cues for localization involve both ears.
    * Interaural Level Difference (ILD) is a simple binaural cue based on differences in sound magnitude between ears.
 
