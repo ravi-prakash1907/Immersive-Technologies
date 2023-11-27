@@ -185,7 +185,7 @@ While talking about the audio in technical terms, followinf points should be con
    * Azimuth is the angle in the xz plane; elevation/altitude is the interior angle in a vertical triangle.
    * Radius is the distance from the origin to the source.
 
-     ![monaural-cue](./assets/monaural-cue.png)
+     ![monaural-cue](./assets/monoaural-cue.png)
 
 2. **Binaural cues:** 
 
