@@ -288,7 +288,7 @@ Having covered the introductory section of Virtual Reality, we can now delve int
 #### References  
 
 1. Steven M. LaValle, **“VIRTUAL REALITY,”** 2020 [[access online](http://lavalle.pl/vr/)]  
-2. Display technologies for Augmented and Virtual Reality, [[blog](https://www.wevolver.com/article/display-technologies-for-augmented-and-virtual-reality)]  
+2. Display technologies for Augmented and Virtual Reality [[blog](https://www.wevolver.com/article/display-technologies-for-augmented-and-virtual-reality)]  
 3. Dylan B. Fafard et al., **"Design and implementation of a multi-person fish-tank virtual reality display,"** 2018 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3281505.3281540)]  
 4. Sujan Shrestha et al., **"A comparative pilot study of historical artifacts in a CAVE automatic virtual reality environment versus paper-based artifacts,"** 2016 [[PDF](https://dl.acm.org/doi/pdf/10.1145/2957265.2962644)]  
 

@@ -302,7 +302,50 @@ In virtual reality (VR) settings, when we talk about the auralization of sound i
 
 ## Rendering Systems
 
-Yet to be updated...
+The **rendering system** is a crucial component of any VR system, responsible for generating the images that are displayed on the user's headset. It must be able to do this efficiently and accurately to provide a smooth and immersive VR experience.
+
+### Key Challenges
+
+VR rendering faces several challenges, including:
+
+1. **Low Latency:** VR requires the rendering system to produce images at a very low latency, typically in the order of milliseconds. This is because any delay between the user's head movement and the corresponding change in the image can cause motion sickness or other unpleasant side effects.
+2. **High Frame Rate:** VR also requires the rendering system to produce images at a high frame rate, typically around 90 frames per second (FPS) or higher. This is because a lower frame rate can lead to perceived judder or stuttering, which can also cause discomfort.
+3. **Retina-Level Resolution:** VR headsets typically have very high resolutions, often referred to as retina-level resolution. This means that the individual pixels on the display are too small to be seen by the human eye, resulting in a sharp and clear image.
+4. **Accurate Perspective and Shading:** The rendering system must also be able to accurately render the perspective and shading of objects in the virtual world. This means that objects must appear to be the correct size and shape, and that they must be lit and shadowed correctly.
+
+A more detailed discussion is provided on the page having article [_"From rendered image to switching pixels"_](#references). Let's explore the components of VR rendering system.
+
+### Components of the VR Rendering System
+
+The VR rendering system consists of several key components:  
+
+* **Virtual World Generator (VWG):** The VWG is responsible for managing the virtual world, including the positions and orientations of all objects. It must be able to update the world state at a rate that is consistent with the desired frame rate.
+
+* **Visual Rendering System:** The visual rendering system is responsible for taking the current state of the virtual world and generating an image that can be displayed on the user's headset. This involves several steps, including:
+
+    1. **Perspective and Viewport Transformations:** These transformations convert the 3D coordinates of objects in the virtual world into 2D coordinates on the screen.
+
+    2. **Rasterization:** Rasterization converts the 2D coordinates of objects into pixels on the screen. This involves calculating the color of each pixel based on the object's material properties, lighting, and other factors.
+
+    3. **Display:** The display is the final stage of the rendering pipeline and is responsible for displaying the generated image to the user.
+
+#### Synchronization of VWG and Rendering System
+
+Synchronization between the VWG and rendering system is crucial to avoid tearing artifacts on the screen. Tearing occurs when the image is updated while the lines are being scanned out, causing the image to appear torn or broken.
+
+Vsync (pronounced "vee sink") is a technique used to synchronize the rendering system with the display's refresh rate. It prevents the video memory from being written outside of the vblank interval, which is the period when the display is not actively displaying an image.
+
+**Latency Reduction Methods**
+
+Latency reduction is essential for a comfortable VR experience. Several techniques can be used to reduce latency, including:  
+
+1. **Forward Rendering:** Forward rendering processes each scene element in the order it appears to the viewer, minimizing the need for data backtracking and improving rendering efficiency.
+2. **Asynchronous Reprojection:** Asynchronous reprojection predicts the user's head movement and adjusts the rendered image accordingly, reducing the perceived latency between head movement and image updates.
+3. **Eye Tracking:** Eye tracking can focus rendering resources on the areas of the scene the user is looking at, improving performance and reducing overall latency.
+
+**Conclusion**
+
+VR rendering is a complex and evolving field, continuously striving to deliver the most immersive and comfortable VR experiences. By addressing the challenges mentioned above and exploring new techniques, VR rendering can continue to push the boundaries of virtual reality.
 
 
 ---  
@@ -315,6 +358,7 @@ Yet to be updated...
 4. Angelika C. Kern et al., **"Audio in VR: Effects of a Soundscape and Movement-Triggered Step Sounds on Presence,"** 2020 [[online](https://www.frontiersin.org/articles/10.3389/frobt.2020.00020/full)]  
 5. Thomas P. et al., **"On the Relative Importance of Visual and Spatial Audio Rendering on VR Immersion,"** 2022 [[online](https://www.frontiersin.org/articles/10.3389/frsip.2022.904866/full)]  
 6. Thomas P. et al., **"Immersive Virtual Reality Teaching in Colleges and Universities Based on Vision Sensors,"** 2022 [[online](https://www.researchgate.net/publication/357865319_Immersive_Virtual_Reality_Teaching_in_Colleges_and_Universities_Based_on_Vision_Sensors)]  
+7. From rendered image to switching pixels [[blog](https://lavalle.pl/vr/node219.html)]  
 
 
 ---  
