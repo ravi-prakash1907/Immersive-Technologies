@@ -16,8 +16,8 @@ The representation of various content in the virtual world is possible due to di
 
 There are two main types of representations in the virtual world:
 
-> 1. Haptic Representation
-> 2. Aural Representation 
+> 1. [Haptic Representation](#haptic-rendering)
+> 2. [Aural Representation](#aural-rendering)  
 
 ### Haptic Rendering
 
@@ -157,11 +157,11 @@ Another recent work (published in 2022) titled [_"On the Relative Importance of 
 > * The **soundscape has a larger effect** on presence than step sounds.
 > * Audio rendering is an important part of creating a VR experience.
 
-Certainly! Here's the corrected and refined markdown:
-
 Now, let's delve into a more detailed discussion of aural rendering!
 
-#### Audio (for developers)
+#### Audio 
+
+While talking about the audio in technical terms, followinf points should be considered:  
 
 * A user listening through speakers or headphones impacts sound source localization.
 * Consider position, orientation, tracking, and avatar locomotion for auralization.
@@ -343,7 +343,7 @@ Latency reduction is essential for a comfortable VR experience. Several techniqu
 2. **Asynchronous Reprojection:** Asynchronous reprojection predicts the user's head movement and adjusts the rendered image accordingly, reducing the perceived latency between head movement and image updates.
 3. **Eye Tracking:** Eye tracking can focus rendering resources on the areas of the scene the user is looking at, improving performance and reducing overall latency.
 
-**Conclusion**
+### Summary of Rendering System  
 
 VR rendering is a complex and evolving field, continuously striving to deliver the most immersive and comfortable VR experiences. By addressing the challenges mentioned above and exploring new techniques, VR rendering can continue to push the boundaries of virtual reality.
 
