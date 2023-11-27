@@ -126,7 +126,7 @@ The _stochastic surface modeling_ is a process to achieve this that uses Stochas
 * Waviness should be removed first
 * Can use filter
 
-Following approach is used to remove the waviness from the surface:  
+Following approach is used to remove the waviness from the surface [_[image credit]_](https://www.youtube.com/watch?v=hOL8wnoJtfY&t=1448s):  
 
 ![Stochastic Surface Modeling](./assets/remove-waviness.png)
 
