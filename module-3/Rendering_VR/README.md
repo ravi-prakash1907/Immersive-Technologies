@@ -126,7 +126,7 @@ The _stochastic surface modeling_ is a process to achieve this that uses Stochas
 * Waviness should be removed first
 * Can use filter
 
-Following approach is used to remove the waviness from the surface:  
+Following approach is used to remove the waviness from the surface [_[image credit]_](https://www.youtube.com/watch?v=hOL8wnoJtfY&t=1448s):  
 
 ![Stochastic Surface Modeling](./assets/remove-waviness.png)
 
@@ -185,9 +185,11 @@ While talking about the audio in technical terms, followinf points should be con
    * Azimuth is the angle in the xz plane; elevation/altitude is the interior angle in a vertical triangle.
    * Radius is the distance from the origin to the source.
 
-     ![monaural-cue](./assets/monaural-cue.png)
+     ![monaural-cue](./assets/monoaural-cue.png)
 
 2. **Binaural cues:** 
+
+  **Credit for Content:** The acknowledgment for various images featured in this segment is attributed to the video [_Perception: 10.2 - Localizing Sounds_]() by [**Dr. Kristin Atchison**](https://youtu.be/Mi3Guybisxw?si=F3eRXo2JwrqYPnDd).  
 
    * Binaural cues for localization involve both ears.
    * Interaural Level Difference (ILD) is a simple binaural cue based on differences in sound magnitude between ears.
@@ -198,7 +200,7 @@ While talking about the audio in technical terms, followinf points should be con
 
      ![localization-sound-azimuth-2](./assets/localization-sound-azimuth-2.png)
 
-   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations. [video class]
+   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations.
 
      ![cone-of-confusion](./assets/cone-of-confusion.png)
 
