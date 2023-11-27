@@ -157,9 +157,145 @@ Another recent work (published in 2022) titled [_"On the Relative Importance of 
 > * The **soundscape has a larger effect** on presence than step sounds.
 > * Audio rendering is an important part of creating a VR experience.
 
-Here is a sample code:  
+Certainly! Here's the corrected and refined markdown:
+
+Now, let's delve into a more detailed discussion of aural rendering!
+
+#### Audio (for developers)
+
+* A user listening through speakers or headphones impacts sound source localization.
+* Consider position, orientation, tracking, and avatar locomotion for auralization.
+* The Doppler Effect serves as a significant motion cue in audio.
+* The Ventriloquism Effect is when visuals influence the localization of a sound source or shift it elsewhere than the actual location.
+* Visuals must be in sync with sound (or earlier).
+* Simplify geometric models for audio, often requiring a spatial resolution of 0.5 meters.
+
+#### Audio Cues
+
+* Auditory localization is akin to depth perception in vision.
+* Cues involve one ear (monaural) or both ears (binaural).
+
+1. **Monaural Cues:**
+
+   * Monaural cues rely on sounds reaching one ear.
+   * Spherical coordinates (azimuth, elevation, radius) describe auditory source points.
+
+     ![Spherical coordinates](https://i.stack.imgur.com/o5Vi4.png)
+
+   * Azimuth is the angle in the xz plane; elevation/altitude is the interior angle in a vertical triangle.
+   * Radius is the distance from the origin to the source.
+
+     ![monaural-cue](./assets/monaural-cue.png)
+
+2. **Binaural cues:** 
+
+   * Binaural cues for localization involve both ears.
+   * Interaural Level Difference (ILD) is a simple binaural cue based on differences in sound magnitude between ears.
+
+     ![localization-sound-azimuth-1](./assets/localization-sound-azimuth-1.png)
+
+   * Interaural Time Difference (ITD) depends on the time it takes for sound to reach each ear, with a distance of approximately 21.5cm between ears (longest at 90 deg.).
+
+     ![localization-sound-azimuth-2](./assets/localization-sound-azimuth-2.png)
+
+   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations. [video class]
+
+     ![cone-of-confusion](./assets/cone-of-confusion.png)
+
+   ILD and ITD collectively can help localize the sound source (e.g., made unequal by tilting the head).
+   The outer ear also pinpoints the sound to locate the source. The brain narrows down the cone of confusion using the known arrival time difference, aided by pinna distortions. 
+
+#### Auditory Rendering 
+
+An overview of _auditory rendering_ can be understood from the following diagram.  
+
+![auditory-rendering](./assets/auditory-rendering.png)
+
+Let's try to understand the involved audio signal processing, step-wise!
+
+#### Basic Signal Processing
+	
+* **Sampling rates:** 
+  - Nyquist sampling i.e. twice a frequency cycle
+* **Linear filters:**
+  - for Signal transformation
+  - Satisfies 2 algebraic properties:  
+    + 1) Additive: F(x + x′) = F(x) + F(x′)
+    + 2) Homogeneous: cF(x) = F(cx)  (c is constant)
+  - These properties are collectively used to manipulate waves by joining and scaling the amplitude.
+* **Finite Impulse Response _(FIR)_:**
+  - Impulse: Single sample with value 1 (x[0] = 1), with infinite 0 (x[k > 0] = 0)
+  - Response received on passing the impulse signal through the filter
+* **Nonlinear filters:** 
+  - Don’t follow the mentioned 2 algebraic properties
+* **Returning to Fourier Analysis**
+* **Transfer Function**
+
+Here is a sample code for FIR that also demonstrates two types of filters with it:  
 
 <script src="https://gist.github.com/ravi-prakash1907/8228f0037387049c8c177b779ac4d6ed.js"></script>
+
+Notice the kind of output's phase and impulse response in different cases _(above)_ how the type of filter affects the same. 
+
+##### Acoustic Modeling
+
+As per the paper - [_"Immersive Virtual Reality Teaching in Colleges and Universities Based on Vision Sensors"_](#references), a broad-level overview is given about the requirements of different renderings.  
+
+![Features-and-conceptual-models-of-VR. It taken from the paper 'Immersive Virtual Reality Teaching in Colleges and Universities Based on Vision Sensors'](./assets/Features-and-conceptual-models-of-VR.jpg)
+
+**Geometric Modeling for Auditory VR:**
+
+> * Similar geometric models for visual rendering can be used for auditory modeling.
+> * High visual acuity doesn't matter as much for audio.
+> * **Challenge:** Converting a detailed 3D model optimized for visuals into one suitable for auditory rendering.
+
+**Sound Source in Virtual Environment:**  
+
+> * The sound source can be a point emitting sound waves or a vibrating planar surface.
+> * The equivalent of white light in sound is white noise, practically having a concentration in specific frequencies.
+
+**Interaction of Sound with Surfaces:**  
+
+> * Analogous to the shading problem in visual rendering (Section 7.1).
+> * Large, smooth surfaces result in the in/out angle equality.
+> * Altered amplitude in reflection due to absorption into the material.
+> * For smaller objects/surfaces with repeated structures, sound waves may scatter.
+
+**Modeling Challenges:**  
+
+> * Significant scattering may occur if wavelength is close to the structure size.
+> * Bidirectional scattering distribution function (BSDF) could be constructed but faces challenges in handling diverse surface structures.
+
+**Sound Capture:**  
+
+> * In the real world using microphones and brought into the virtual world.
+> * Challenges in fully capturing the sound field; proposed techniques involve the interpolation of sounds captured by multiple microphones.
+
+**Practical Considerations:**  
+
+> * Fine details in geometric models for visuals can be simplified for rendering.
+> * Absorption coefficients for materials are available at different frequencies.
+> * Difficulties in modeling and calculating scattering patterns for sound waves.
+
+#### Auralization 
+
+In virtual reality (VR) settings, when we talk about the auralization of sound insulation between adjacent rooms, we're essentially simulating how sound travels between these spaces. This process uses methods to predict sound insulation, ensuring a realistic and high-quality auditory experience within the virtual environment.  
+
+* **Sound Propagation in VE**
+  - Pressure before Obstacle
+  - Pressure after scattering factor accounting
+  - Scattering components _(difference between previous 2 cases)_ 
+* **Wave Propagation**
+  - Numerical vs Visibility-based
+  - Cases to use which of the 2 (above) when
+* **Ear Entry and Tracking**
+  - It is represented as if virtual ears are positioned in the virtual environment, effectively mirroring the real ears for listening.
+  - To ensure synchronization:
+    + The microphone is treated as an ear.
+    + Sound adjustments are made based on the user's head repositioning.
+  - Consequently, tracking the ear's pose (both position and orientation) becomes essential for establishing the appropriate "viewpoint." This parallels head tracking, involving straightforward adjustments in position and orientation for both the right and left ears.
+    + There are two options: _**1)** track head orientation while noting ear positions, **2)** Perform full-body pose tracking, directly capturing the poses of the ears._
+
 
 
 ---  
@@ -178,6 +314,7 @@ Yet to be updated...
 3. Dangxiao Wang et al., **"Haptic display for virtual reality: progress and challenges,"** 2019 [[online](https://www.sciencedirect.com/science/article/pii/S2096579619300130)]  
 4. Angelika C. Kern et al., **"Audio in VR: Effects of a Soundscape and Movement-Triggered Step Sounds on Presence,"** 2020 [[online](https://www.frontiersin.org/articles/10.3389/frobt.2020.00020/full)]  
 5. Thomas P. et al., **"On the Relative Importance of Visual and Spatial Audio Rendering on VR Immersion,"** 2022 [[online](https://www.frontiersin.org/articles/10.3389/frsip.2022.904866/full)]  
+6. Thomas P. et al., **"Immersive Virtual Reality Teaching in Colleges and Universities Based on Vision Sensors,"** 2022 [[online](https://www.researchgate.net/publication/357865319_Immersive_Virtual_Reality_Teaching_in_Colleges_and_Universities_Based_on_Vision_Sensors)]  
 
 
 ---  
