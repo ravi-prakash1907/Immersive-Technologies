@@ -200,7 +200,7 @@ While talking about the audio in technical terms, followinf points should be con
 
      ![localization-sound-azimuth-2](./assets/localization-sound-azimuth-2.png)
 
-   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations. [video class]
+   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations.
 
      ![cone-of-confusion](./assets/cone-of-confusion.png)
 
