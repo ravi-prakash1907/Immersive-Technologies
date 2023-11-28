@@ -188,24 +188,23 @@ While talking about the audio in technical terms, followinf points should be con
      ![monaural-cue](./assets/monoaural-cue.png)
 
 2. **Binaural cues:** 
+  > - **Credit for Content:** The acknowledgment for various images featured in this segment is attributed to the video [_Perception: 10.2 - Localizing Sounds_](https://youtu.be/Mi3Guybisxw?si=uNoq2ERSlXYx6xg-) by [**Dr. Kristin Atchison**](https://youtu.be/Mi3Guybisxw?si=F3eRXo2JwrqYPnDd).  
 
-  **Credit for Content:** The acknowledgment for various images featured in this segment is attributed to the video [_Perception: 10.2 - Localizing Sounds_]() by [**Dr. Kristin Atchison**](https://youtu.be/Mi3Guybisxw?si=F3eRXo2JwrqYPnDd).  
+  * Binaural cues for localization involve both ears.
+  * Interaural Level Difference (ILD) is a simple binaural cue based on differences in sound magnitude between ears.
 
-   * Binaural cues for localization involve both ears.
-   * Interaural Level Difference (ILD) is a simple binaural cue based on differences in sound magnitude between ears.
+  ![localization-sound-azimuth-1](./assets/localization-sound-azimuth-1.png)
 
-     ![localization-sound-azimuth-1](./assets/localization-sound-azimuth-1.png)
+  * Interaural Time Difference (ITD) depends on the time it takes for sound to reach each ear, with a distance of approximately 21.5cm between ears (longest at 90 deg.).
 
-   * Interaural Time Difference (ITD) depends on the time it takes for sound to reach each ear, with a distance of approximately 21.5cm between ears (longest at 90 deg.).
+  ![localization-sound-azimuth-2](./assets/localization-sound-azimuth-2.png)
 
-     ![localization-sound-azimuth-2](./assets/localization-sound-azimuth-2.png)
+  * ITD creates a hyperboloid known as the cone of confusion, representing possible source locations.
 
-   ITD creates a hyperboloid known as the cone of confusion, representing possible source locations.
+  ![cone-of-confusion](./assets/cone-of-confusion.png)
 
-     ![cone-of-confusion](./assets/cone-of-confusion.png)
-
-   ILD and ITD collectively can help localize the sound source (e.g., made unequal by tilting the head).
-   The outer ear also pinpoints the sound to locate the source. The brain narrows down the cone of confusion using the known arrival time difference, aided by pinna distortions. 
+  * ILD and ITD collectively can help localize the sound source (e.g., made unequal by tilting the head).
+  * The outer ear also pinpoints the sound to locate the source. The brain narrows down the cone of confusion using the known arrival time difference, aided by pinna distortions. 
 
 #### Auditory Rendering 
 
