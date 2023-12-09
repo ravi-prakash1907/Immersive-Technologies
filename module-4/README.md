@@ -1,4 +1,4 @@
-# Understanding the Virtual Reality (VR)  
+# Applications and Research Potential of ITs  
  
 ## Introduction  
  
