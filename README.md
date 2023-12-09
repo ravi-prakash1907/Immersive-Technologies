@@ -29,10 +29,11 @@ Embark on a concise journey through Augmented Reality (AR), exploring its evolut
 
 Embark on an insightful journey through the evolution of Virtual Reality (VR) 🌐, dissecting hardware, software, and various VR displays. Explore technical intricacies like rendering the virtual world and the dynamics of aural versus haptic representation, shaping immersive experiences 🎮. The development segment unravels the environment, tools, frameworks, and the X3DStandard, integrating VR software, game engines, and algorithms for compelling virtual environments 🛠️. Navigate challenges and applications across diverse domains in the VR world 🏗️. This module provides a comprehensive yet succinct exploration of VR, capturing its evolution, development nuances, and current landscape.  
 
-### Module-4  
+### [Module-4](./module-4/)  
 
-_Yet to described._  
+**Applications and Research Potential of ITs**  
 
+This module explores immersive technologies (ITs) 🌐, covering Mixed Reality, XR, and related topics, emphasizing applications, case studies, and research directions, including design, prototyping 🛠️, and security considerations 🔒 across diverse computing platforms.  
 
 ---  
 
