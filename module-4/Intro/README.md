@@ -12,17 +12,21 @@
 
 ## Related Technologies
 
+The implementation of immersive technologies involves the integration of various technologies and concepts. Simultaneously, within the tech industry, there are numerous related technologies that coexist, necessitating a clear understanding. The following section explores some of the crucial associated technologies.  
+
 ### 3D Object Detection and Reconstruction  
 * **Vision:** Monoscopic vs Stereoscopic Vision
 * Suitable hardware (camera, displays, etc.)
 * Equirectangular vs Cube-map based rendering 
 * Marker-based vs markerless AR
-* ![8-point-algo](URL)  
+* ![8-point-algo](./assets/8-pt-algo.png)  
 
 ### Path and Localization  
 * **SLAM** (Simultaneous Localization and Mapping)
-* Graph-based SLAM - Pose Graph vs Factor Graph
-* ![graph-based slam](URL)  
+* Graph-based SLAM:
+  * There can be two types of graphs, i.e., **Pose Graph** vs **Factor Graph**. 
+  * Below is a _factor graph_ given that represents the solution for a complete SLAM problem. The diagram is taken from [_"Square root SAM"_](#references).  
+* ![graph-based slam](./assets/Factor-graph-in-SLAM.png)  
 
 ### Avatars  
 
@@ -51,9 +55,11 @@ MR **combines elements of both VR and AR,** allowing virtual and real-world elem
 
 ### 2. Extended Reality (XR)
 
-![V-R_continuum](URL)  
+Extended Reality, or XR, is the umbrella term that collectively refers to AR, VR, and MR. Following figure represents the _Reality-Virtuality Continuum_, which is taken from the website of [_IONOS_](#references).  
 
-It is the umbrella term that collectively refers to AR, VR, and MR.
+![V-R_continuum](./assets/reality-virtuality-continuum.png)  
+
+
 
 ---  
 
@@ -80,11 +86,11 @@ There are many essential components and supporting technologies required for Imm
 
 These technologies are different from each other and applicable collectively or individually, depending on the application scenario. Here is a discussion of how we categorized several avatars:  
 
-![avatar-pyramid](URL)
+![avatar-pyramid](./assets/avatar-pyramid.png)
 
 We have tried to categorize these different types of Avatars as follows:
 
-![avatar-categories](URL)
+![avatar-categories](./assets/avatar-types.png)
 
 
 ### 2. Required Areas and Industries
@@ -104,9 +110,9 @@ The following table displays the minimum requirements for applications of Immers
 
 I have split the possible areas of works and demand for the metaverse into three sub-sections. These are:
 
-1. Government Projects  
-2. Indian Startups  
-3. Private Companies
+> 1. Government Projects  
+> 2. Indian Startups  
+> 3. Private Companies
 
 **1. Government Projects** (India and abroad)**:**
 
@@ -127,8 +133,11 @@ I have split the possible areas of works and demand for the metaverse into three
   * Continuously improved designing 
   * Engin health monitoring and Preventive Maintenance
   * Engine performance monitoring 
+  * The image is shown below in this sub-section.
 * [Trace Network Labs](https://trace.network/), is another startup having <u>Metaverse for Fashion & Lifestyle</u> providing a <u>highly immersive environment</u> and leveraging <u>Avatars.</u>
 * The startup called IKONZ primarily provides solutions for IP owners through the combination of Generative AI, and Blockchain with Meraverse.  
+
+![paninian-DT-engine](./assets/paninian-DT.png)
 
 
 **3. Private Companies:**
@@ -152,12 +161,13 @@ I have split the possible areas of works and demand for the metaverse into three
 
 #### References  
 
-_To go here..._  
+1. Frank Dellaert, **"Square root SAM,"** 2005 [[online](https://www.researchgate.net/publication/221344652_Square_root_SAM)]    
+2. **Digital Guide - IONOS,** last accessed December 2023 [[website](https://www.ionos.co.uk/digitalguide/)]
+3. **Paninian,** (online), last accessed December 2023 [[website](https://www.paninian.com/airvoxels-digitaltwin)]
 
 <!-- 
 1. Steven M. LaValle, **“VIRTUAL REALITY,”** 2020 [[access online](http://lavalle.pl/vr/)]  
 2. Display technologies for Augmented and Virtual Reality [[blog](https://www.wevolver.com/article/display-technologies-for-augmented-and-virtual-reality)]  
-3. Dylan B. Fafard et al., **"Design and implementation of a multi-person fish-tank virtual reality display,"** 2018 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3281505.3281540)]  
 4. Sujan Shrestha et al., **"A comparative pilot study of historical artifacts in a CAVE automatic virtual reality environment versus paper-based artifacts,"** 2016 [[PDF](https://dl.acm.org/doi/pdf/10.1145/2957265.2962644)]   
 -->
 
