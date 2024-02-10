@@ -165,12 +165,6 @@ I have split the possible areas of works and demand for the metaverse into three
 2. **Digital Guide - IONOS,** last accessed December 2023 [[website](https://www.ionos.co.uk/digitalguide/)]
 3. **Paninian,** (online), last accessed December 2023 [[website](https://www.paninian.com/airvoxels-digitaltwin)]
 
-<!-- 
-1. Steven M. LaValle, **“VIRTUAL REALITY,”** 2020 [[access online](http://lavalle.pl/vr/)]  
-2. Display technologies for Augmented and Virtual Reality [[blog](https://www.wevolver.com/article/display-technologies-for-augmented-and-virtual-reality)]  
-4. Sujan Shrestha et al., **"A comparative pilot study of historical artifacts in a CAVE automatic virtual reality environment versus paper-based artifacts,"** 2016 [[PDF](https://dl.acm.org/doi/pdf/10.1145/2957265.2962644)]   
--->
-
 ---  
 
 [🔙 Module-3 Home Page](../)

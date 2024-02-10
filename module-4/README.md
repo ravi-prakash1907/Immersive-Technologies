@@ -14,7 +14,7 @@ This module provides a deep dive into immersive technologies, covering the basic
     * Comparison
     * Required Areas and Industries  
 
-### Case studies  
+### [Case Studies ](Case_Studies)  
   * Design and Evaluation  
   * Production Pipeline  
     * Sensing  
