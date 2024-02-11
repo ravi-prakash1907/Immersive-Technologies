@@ -106,6 +106,90 @@ The 360 VR production requires sequential steps to write, plan, staff, and cast 
 ![Prototyping](./assets/2-Prototyping.png)  
 
 
+**Shot Lists**  
+
+![Shot Lists](./assets/3-Shot-List.png)  
+
+* Create a shot list and prepare a schedule  
+
+#### Crewing-up
+
+There can be different crews depending on the **scenarios** and the **type of project,** i.e., _experiment, short-term project, and big/long-term project._ Following table discusses this better:  
+
+| Crew Size | Roles Covered | Benefits | Drawbacks |
+|-----------|---------------|----------|-----------|
+| **1**         | Director, Director of Photography (DP), Sound Engineer _(all combined)_       | Learn quickly, **cost-effective,** gain experience across all aspects | Time-consuming, potentially overwhelming |
+| **2-3**       | Director, DP, Sound Engineer _**(split responsibilities)**_        | Specialization based on strengths, **efficient workflow** | Requires **strong communication** and **collaboration** |
+| **3+**        | Director, DP, Sound Engineer, Producer/Coordinator, Grip & Electric, Script Supervisor, Production Assistant _(dedicated roles)_ | Ideal for **complex** shoots, high-quality production | Increased cost and complexity |
+
+
+### Reviewed Projects
+
+1. [Field Engineer **Assistance via Augmented Reality**](https://www.infosys.com/services/incubating-emerging-technologies/success-stories/augmented-reality-app.html)
+    1. Visualize relevant data via Infosys AR-VR
+        - visualize & manipulate large amounts of data
+        - identify business anomalies
+        - remote maintenance, _etc.._
+    2. Real-time augmentation of sensor information
+    3. Capable of predictive maintenance
+    4. Multiple synchronized processes
+
+2. [A global EPC company undertakes **immersive design reviews with 3D models and VR**](https://www.infosys.com/services/incubating-emerging-technologies/success-stories/augmented-reality-app.html)
+   1. Solution for viewing the BIM data onto a virtual reality (VR) device
+   2. Immersive viewing on a 1:1 scale
+      - Facilitated collaboration in VR
+   3. Architecture:
+      - Built on the iModel.js framework of JavaScript
+      - Frontend using Unity 3D (game engine)
+      - Server through a Google Protocol Buffer over a WebSocket
+   4. Streaming Building information modeling (BIM) data to the HTC VIVE VR device
+   5. Enables walk-through and self-teleporting at different locations on the 3D model
+   6. Challenges:
+      - Varying data sizes _(70MB to 5.8GB triangles)_
+      - Iterative design
+
+3. Role-based **Collaborative Immersive Authoring** [[online]](https://dl.acm.org/doi/abs/10.1145/3313831.3376637) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3313831.3376637)
+
+- _Here the authors study how novice AR/VR creators can take advantage of the roles and modes in **“XRDirector” to prototype complex scenes** with animated 3D characters, light effects, and camera movements._  
+
+    1. XRDirector is a role-based collaborative immersive authoring system.  
+    2. It addresses the challenges of existing immersive authoring tools by using roles inspired by filmmaking to structure the authoring process and enable multiple designers to work together.  
+    3. The system was informed by case studies and workshops with novice AR/VR creators.  
+    4. It was found to make AR/VR scene creation faster and easier, and to help identify strengths and weaknesses of different roles and modes.  
+ 
+
+### Considerations & Mistakes in Production  
+
+#### Synchronization:
+- Crucial for smooth editing, especially when using separate audio or multi-camera rigs.
+- Techniques: _Clap, light flash, dog clicker, motion twist._
+- Resources: GoPro 360 Beginners Guide, Syncing in Premiere for Autopano Video Pro.
+
+#### Stabilization & Movement:
+- Avoid _yaw movement_ (twisting the entire world) - _VR sickness._
+- Move steadily and linearly, and avoid shaky accelerations.
+- Consider stabilizers like gimbals and _anti-vibration equipment._
+- Balance weight on monopods/tripods to avoid falls and damage.
+
+#### Settings:
+- Check before each shot (exposure, etc.)
+- Use _live-preview options_ when possible.
+
+#### Object Proximity:
+- Keep objects at a comfortable distance to _avoid immersion breaks._
+- Careful with optical-flow stitching (Google Jump).
+
+#### Avoiding Stitch Issues:
+- Keep action in front of camera lenses, not between.
+- Shoot test shots to identify potential stitch line problems.
+
+#### Hiding Equipment & Crew:
+- Takes away from immersion - finds _hiding spots_ or uses crew as extras.
+- _Live preview_ helps spot details.
+
+#### Plate Shots & Post-Production Masking:
+- Secondary shots of empty _environments for covering mistakes._
+- Ensures a clean baseline for editing and masking.
 
 
 
